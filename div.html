@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div_공간분할태그_박스의 성격</title>
+    <style>
+        div{
+            height: 80px;
+            background-color: coral;
+            font-size: 30px;
+        }
+        span{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!--레이아웃을 나타내기 위해 공간분할 표현-->
+    <!--
+    block:
+    박스와 같이 쌓이면서 나타나는 성격/화면 전체를 사용하는 태그
+    -->
+    <div>box1</div>
+    <div>box2</div>
+    <div>box3</div>
+    <!--
+    inline:
+    글자와 같이 옆으로 나열되며 나타나는 성격
+    내용의 폭값, 화면의 일부를 차지하는 성격
+    width, height, margin-top, margin-bottom적용이 되지 않음
+    -->
+    <span>span1</span>
+    <span>span2</span>
+    <span>span3</span>
+</body>
+</html>

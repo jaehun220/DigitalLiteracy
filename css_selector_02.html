@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS기초_Selector 선택자</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        *{
+            margin: 0;/*안쪽 여백*/
+            padding: 0;/*바깥 여백*/
+            /*style안에 작성하는 주석방법*/
+        }
+        /* h1{
+            color: coral;
+            글자색: 단어, 컬러코드(hex: 옆에 #을 붙인 영문 숮자 조합의) 
+        }
+        p{
+            
+        } */
+        #aa{
+            color:darkorange;
+        }
+        #bb{
+            color: blue;
+        }
+
+    </style>
 </head>
 <body>
     <!--
@@ -34,17 +55,34 @@
     03. 인라인스타일 Inline Style Sheet
     # HTML 즉 태그에 직접 작성
     -->
-    <h1>01. 전체선택자</h1>
+    <h1 class="cc">01. 전체선택자</h1>
     <p>
         *, html에 등장하는 모든 형태를 선택하느 선택자(초기화, 기본 설정값)
     </p>
     <br><br><br>
 
-    <h1>02. 태그선택자</h1>
+    <h1 id="bb">02. 태그선택자</h1>
     <p>
         h1~h6, a, img 등 html에 등장하는 특정한 태그를 선택하는 선택자
     </p>
-    
+    <br><br><br>
+
+    <h1 id="aa">03. 아이디선택자</h1>
+    <!--한글, 띄어쓰기, 특수문자 두가지 외에 안함
+    소문자 중심으로 씀-->
+    <p>
+        본문(id="name")/스타일(#)
+        특정한 이름을 부여하여 선택하는 선택자로 html화면 내에서 하나의 이름으로 한번만 사용가능 주로 큰 단락, 부모에서 사용
+    </p>
+    <br><br><br>
+
+    <h1 class="cc">04. 클래스선택자</h1>
+    <!--한글, 띄어쓰기, 특수문자 두가지 외에 안함
+    소문자 중심으로 씀씀-->
+    <p>
+        h1~h6, a, img 등 html에 등장하는 특정한 태그를 선택하는 선택자
+    </p>
+    <br><br><br>
     
 </body>
 </html>

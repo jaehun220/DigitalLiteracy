@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background 속성</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            display: block;
+            max-width: 100%;
+        }
+        body{
+            background-color: white;
+            background-image: url(bg-1.png);
+            /*
+            배경이미지 속성
+            url(이미지 경로)
+            이미지 사이즈가 부모의 사이즈보다 작을 때 반복되는 성격
+            공간, 내용물이 있는 상태에서 이미지는 나타남남
+            */
+            background-repeat: no-repeat;
+            /*배경이미지가 반복 속성 no-repeat(반복되지 않는 원본 전용*/
+            background-repeat: repeat-x;
+            /*가로반복*/
+            background-repeat: repeat-y;
+            /*세로반복*/
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>배경관련 속성</h1>
+    <p>
+        배경색을 넣거나 배경이미지를 넣어서 공간을 활용!<br>
+        배경색을 넣거나 배경이미지를 넣어서 공간을 활용!<br>
+        배경색을 넣거나 배경이미지를 넣어서 공간을 활용!<br>
+        배경색을 넣거나 배경이미지를 넣어서 공간을 활용!<br>
+        배경색을 넣거나 배경이미지를 넣어서 공간을 활용!<br>
+    </p>
+</body>
+</html>
